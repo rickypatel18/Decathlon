@@ -5,6 +5,8 @@ import Serach from "./Search";
 import Explore from "./Explore";
 import user from "./svg/user.svg";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
+import Body from "./Body";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -14,7 +16,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <>
+    <div className="navbar">  
       <div className="logo">
         <img
           src="https://play.decathlon.in/static/media/logo.7625af89.svg"
@@ -48,6 +51,16 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    
+    <div className="body">
+      <Body/>
+    </div>
+
+    <div className="footer">
+      <Footer/>
+    </div>
+    </>
+
   );
 };
 
