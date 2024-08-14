@@ -1,38 +1,143 @@
-.App {
+.footer {
+  background-color: rgb(245, 244, 245);
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(225, 227, 245);
+  padding: 25px;
+  color: rgb(54, 67, 186);
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-text {
+  width: 400px;
+  margin-right: 100px;
+}
+
+ .footer-links-container {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.footer-featured-categories {
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.footer-categories-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-category-column {
+  flex: 1;
+  max-width: 20%;
+}
+
+.footer-category-column p {
+  margin-bottom: 5px;
+}
+
+.footer-category-column a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-decathlon-play {
+  flex: 1;
+  max-width: 40%;
+  background-color: #fff;
+  padding:20px 50px;
+}
+
+.footer-decathlon-play-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-decathlon-play-links p {
+  margin-bottom: 0px;
+}
+
+.footer-decathlon-play-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-contact {
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.footer-contact-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-button {
+  margin: 40px;
+}
+
+.footer-button button{
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.footer-social-media {
+  margin-left: 300px;
+  display: flex;
+}
+
+.footer-social-media img{
+  margin-left: 30px;
+}
+
+.footer-quote {
+  text-align: center;
+  color: rgb(54, 67, 186);
+}
+
+.footer-links-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.footer-links-bottom a{
+  text-decoration: none;
+  color: #3643BA;
+
+}
+
+.footer-purpose {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-purpose-heading{
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-purpose-img{
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
